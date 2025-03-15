@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  
+
+  <head>
+    
+    <title>utils</title>
+    <meta name="generator" content="pydoctor 22.2.2"> 
+        
+    </meta>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+</head>
+
+  <body>
+
+    
+
+    <nav class="navbar navbar-default">
+  
+  <div class="container">
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+          <span class="navbar-brand">
+            utils <a href="index.html">API Documentation</a>
+          </span>
+
+          <a href="moduleIndex.html">
+            Modules
+          </a>
+
+          <a href="classIndex.html">
+            Classes
+          </a>
+
+          <a href="nameIndex.html">
+            Names
+          </a>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+    
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1 class="module"><code><code><a href="index.html" class="internal-link">utils</a></code></code></h1>
+        <div id="showPrivate">
+          <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+        </div>
+      </div>
+
+      <div class="categoryHeader">
+        module documentation
+      </div>
+
+      <div class="extrasDocstring">
+        
+        <p></p>
+      </div>
+
+      <div class="moduleDocstring">
+        <div>Function for AI and DS Workshop @ Swiss Study Foundation Seminar Copyright (c) Silvio Barandun</div>
+      </div>
+
+      <div id="splitTables">
+        <table class="children sortable" id="id1">
+  
+  
+  <tr class="class">
+    
+    <td>Class</td>
+    <td><code><a href="utils.ClassificationNetwork.html" class="internal-link" title="utils.ClassificationNetwork">​Classification​Network</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#accuracy_public_test" class="internal-link" title="utils.accuracy_public_test">accuracy​_public​_test</a></code></td>
+    <td>Computes accuracy on public test set</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#clean_df" class="internal-link" title="utils.clean_df">clean​_df</a></code></td>
+    <td>Clean dataframe</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#crop_img" class="internal-link" title="utils.crop_img">crop​_img</a></code></td>
+    <td>Crop img</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#define_network" class="internal-link" title="utils.define_network">define​_network</a></code></td>
+    <td>Generate NN</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#erase_bg" class="internal-link" title="utils.erase_bg">erase​_bg</a></code></td>
+    <td>Remove backgroud from image</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#forward_test" class="internal-link" title="utils.forward_test">forward​_test</a></code></td>
+    <td>Feed features through the Network</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#generate_submission" class="internal-link" title="utils.generate_submission">generate​_submission</a></code></td>
+    <td>Generates submission on private test set</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#import_dataset" class="internal-link" title="utils.import_dataset">import​_dataset</a></code></td>
+    <td>Imports the dataset</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#import_img" class="internal-link" title="utils.import_img">import​_img</a></code></td>
+    <td>Imports single image from file</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#plot_stats_training" class="internal-link" title="utils.plot_stats_training">plot​_stats​_training</a></code></td>
+    <td>Plots training stats</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#preprocess" class="internal-link" title="utils.preprocess">preprocess</a></code></td>
+    <td>Separete features from target and prepare to feed to NN</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#ResizeWithAspectRatio" class="internal-link" title="utils.ResizeWithAspectRatio">​Resize​With​Aspect​Ratio</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#rgb2gray" class="internal-link" title="utils.rgb2gray">rgb2gray</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#show_img" class="internal-link" title="utils.show_img">show​_img</a></code></td>
+    <td>Displays the image</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#single_image" class="internal-link" title="utils.single_image">single​_image</a></code></td>
+    <td>Feed image through NN</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#split_train_val" class="internal-link" title="utils.split_train_val">split​_train​_val</a></code></td>
+    <td>Generate train and validation sets</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#stats_df" class="internal-link" title="utils.stats_df">stats​_df</a></code></td>
+    <td>Visualise statistics</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#to_bw" class="internal-link" title="utils.to_bw">to​_bw</a></code></td>
+    <td>Convert img to black and white</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#train" class="internal-link" title="utils.train">train</a></code></td>
+    <td>Train the Network</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#visualise_dataset" class="internal-link" title="utils.visualise_dataset">visualise​_dataset</a></code></td>
+    <td>Visualise the dataframe</td>
+  </tr>
+</table>
+        
+
+          
+      </div>
+
+      <div id="childList">
+
+        <div class="basefunction">
+  
+  
+  <a name="utils.accuracy_public_test">
+    
+  </a>
+  <a name="accuracy_public_test">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">accuracy_public_test</span>(y_pred):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Computes accuracy on public test set</p>
+<p>You are allowed to call this function a maximum of 3 times. Ask the tutors for inserting the password</p>
+<p>:param y_pred: Predicted labels on public test set</p>
+<p>:return: Prints accuracy on public test set</p>
+<p>return format: None</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.clean_df">
+    
+  </a>
+  <a name="clean_df">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">clean_df</span>(dataframe, method):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Clean dataframe</p>
+<p>Cleans the dataframe fixing or removing non numerical entries using given method :param dataframe: :param method: one of "median", "mean", "drop"</p>
+<p>:return: clean dataframe</p>
+<p>return format: df</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.crop_img">
+    
+  </a>
+  <a name="crop_img">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">crop_img</span>(img):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Crop img</p>
+<p>Will require dynamical input of the pixels</p>
+<p>:param img: image :return img: croped image</p>
+<p>return format: img</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.define_network">
+    
+  </a>
+  <a name="define_network">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">define_network</span>(fully_conn_dims, activation):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Generate NN</p>
+<p>Returns a Neural Network with given fully connected layes and activation function</p>
+<p>:param fully_conn_dims: list starting with 196 ending with number of categories, gives layer dimension, e.g.: [196,10] :param activation: one of: 'sigmoid', 'ReLU', 'Softplus', 'Leaky ReLU' for plots see</p>
+<p>--- https://en.wikipedia.org/wiki/Activation_function#Table_of_activation_functions</p>
+<p>:return: Neural Network return format: net</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.erase_bg">
+    
+  </a>
+  <a name="erase_bg">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">erase_bg</span>(img):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Remove backgroud from image</p>
+<p>:param img: image</p>
+<p>:return img: with uniformed background</p>
+<p>return format: img</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.forward_test">
+    
+  </a>
+  <a name="forward_test">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">forward_test</span>(Network, X):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Feed features through the Network</p>
+<p>Feeds X to the Network and returns prediction</p>
+<p>:param Network: trained Network, must be output of define_network :param X: Test feature vector</p>
+<p>:return predicted labels return format: out</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.generate_submission">
+    
+  </a>
+  <a name="generate_submission">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">generate_submission</span>(Network):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Generates submission on private test set</p>
+<p>:param Network: trained Network :return: produces output file to be submitted</p>
+<p>return format: None</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.import_dataset">
+    
+  </a>
+  <a name="import_dataset">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">import_dataset</span>(filename):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Imports the dataset</p>
+<p>:param filename: path to the dataframe (make c&amp;p from kaggle) :type filename: string</p>
+<p>:return: Dataframe</p>
+<p>return format: df</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.import_img">
+    
+  </a>
+  <a name="import_img">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">import_img</span>(filename):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Imports single image from file</p>
+<p>:param filename: path to file (c&amp;p from kaggle) :param X: Test feature vector</p>
+<p>:return img: as matrix</p>
+<p>return format: img</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.plot_stats_training">
+    
+  </a>
+  <a name="plot_stats_training">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">plot_stats_training</span>(loss_values, val_score):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Plots training stats</p>
+<p>:param loss_values, val_score: output of train</p>
+<p>return format: None</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.preprocess">
+    
+  </a>
+  <a name="preprocess">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">preprocess</span>(dataframe, train=True, subset=False):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Separete features from target and prepare to feed to NN</p>
+<p>Separates labels form targets (if present) and converts to format compatible with NN</p>
+<p>:param dataframe: :param train: True / False. If True, "label" is expected to be in the columns :param subset: integer or False, reduces the dataset to this size. With False, no reduction is operated</p>
+<p>:return: X(=inputs) and y(= label, if train=True)</p>
+<p>return format: X (,y)</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.ResizeWithAspectRatio">
+    
+  </a>
+  <a name="ResizeWithAspectRatio">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">ResizeWithAspectRatio</span>(image, width=None, height=None, inter=cv2.INTER_AREA):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.rgb2gray">
+    
+  </a>
+  <a name="rgb2gray">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">rgb2gray</span>(rgb):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.show_img">
+    
+  </a>
+  <a name="show_img">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">show_img</span>(img):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Displays the image</p>
+<p>:param img: image</p>
+<p>return format: None</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.single_image">
+    
+  </a>
+  <a name="single_image">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">single_image</span>(Network, img):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Feed image through NN</p>
+<p>:param Network: Trained network :param img: image</p>
+<p>:return: Prints probability of associations and the predicted label</p>
+<p>return format: None</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.split_train_val">
+    
+  </a>
+  <a name="split_train_val">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">split_train_val</span>(X, y, val_size):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Generate train and validation sets</p>
+<p>Splits dataset into train and validation sets :param X: Feature vector :param y: target vector :param val_size: float between 0 and 1. Gives the size of the validation set</p>
+<p>:return: X_train, X_val, y_train, y_val</p>
+<p>return format: X_train, X_val, y_train, y_val</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.stats_df">
+    
+  </a>
+  <a name="stats_df">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">stats_df</span>(dataframe):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Visualise statistics</p>
+<p>Prints the occurencies per each category. Useful to identify errors :param dataframe: dataframe</p>
+<p>:return: prints stats</p>
+<p>return format: None</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.to_bw">
+    
+  </a>
+  <a name="to_bw">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">to_bw</span>(img):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Convert img to black and white</p>
+<p>:param img: image</p>
+<p>:return img: as black and white (0&lt;=values&lt;=255)</p>
+<p>return format: img</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.train">
+    
+  </a>
+  <a name="train">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">train</span>(Network, X, y, n_splits, num_epochs, batch_size, lr):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Train the Network</p>
+<p>:param Network: Network to train, must be output of define_network :param X: Train feature vector, see n_split :param y: train truth, see n_split :param n_split: integer. n_splits==1 --&gt; X = (X_train,X_test) and y=(y_train,y_test) n_split &gt;1 --&gt; kFold is perfomed with all of X = X_train and y = y_train :param num_epochs: integer, epochs to train the network :param batch_size: integer, batch dimension for optimisation :param lr: learning rate, float &lt;1</p>
+<p>:return Network: trained network :return loss_values, val_score: to be fed to plot_stats_training for visualisation</p>
+<p>return format: net, loss_values, val_score</p>
+</div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="utils.visualise_dataset">
+    
+  </a>
+  <a name="visualise_dataset">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-keyword">def</span> <span class="py-defname">visualise_dataset</span>(dataframe, label_col_name=<span class="rst-variable-quote">'</span><span class="rst-variable-string">label</span><span class="rst-variable-quote">'</span>):
+    
+  </div>
+  <div class="docstring functionBody">
+    
+    
+    <div><p>Visualise the dataframe</p>
+<p>:param dataframe: dataframe to be visualised :param label_col_name: string, column name of the ground truth (the "y")</p>
+<p>:return: plots one row in 28x28 pixel for each category of label_col_name</p>
+<p>return format: None</p>
+</div>
+  </div>
+</div>
+
+      </div>
+    </div>
+
+    <footer class="navbar navbar-default">
+  
+  <div class="container">
+    <a href="index.html">API Documentation</a> for utils,
+  generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
+    22.2.2 at 2022-03-11 16:35:38.
+  </div>
+</footer>
+
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>
